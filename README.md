@@ -2,12 +2,12 @@
 
 Create quizzes from documents using AI, evaluate generated content quality, and experiment with question generation datasets in one workspace.
 
+https://github.com/user-attachments/assets/3fa6bf56-8483-4fa7-8f51-b66304e48521
+
 ## ✨ Highlights
 
 - 📄 Upload PDF, DOCX, or PPTX files and extract text
 - 🤖 Generate quiz questions and answers with OpenAI
-- 📊 Evaluate generated content using BLEU, METEOR, and ROUGE metrics
-- 🧪 Includes dataset conversion and experimentation scripts
 - 🖥️ Streamlit-based interface for quick local usage
 
 ## 🧱 Main Files
@@ -67,51 +67,9 @@ export OPENAI_API_KEY="your_openai_api_key_here"
 streamlit run app.py
 ```
 
-### Document to Quiz Generator + Evaluation
+ ## Licence
 
-```bash
-streamlit run eval.py
-```
-
-### Convert SQuAD v2 to CSV
-
-```bash
-python conv.py
-```
-
-## 📈 Evaluation Metrics Used
-
-- BLEU
-- METEOR
-- ROUGE-1
-- ROUGE-2
-- ROUGE-L
-
-## 🛡️ GitHub Push Readiness Checklist
-
-- ✅ Dependencies documented in `requirements.txt`
-- ✅ README added with setup and usage instructions
-- ✅ API key moved to environment variable (`OPENAI_API_KEY`)
-- ✅ Root `.gitignore` added (venv, secrets, caches, node_modules, and large local artifacts)
-- ⚠️ If the old API key was real, rotate it immediately in your OpenAI dashboard
-
-## 📤 Push To GitHub
-
-Use these commands from the project root after creating an empty GitHub repository:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-
-## 🗂️ Notes
-
-This workspace also contains additional datasets and sub-projects (for example `RACE/`, `LearningQ-qg/`, `SQuAD-explorer/`, and `my-next-app/`) that can support future improvements and experiments.
-
+ MIT
 ---
 
 Built for learning, experimentation, and rapid prototyping of AI-powered quiz generation. 🚀
