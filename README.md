@@ -13,8 +13,6 @@ https://github.com/user-attachments/assets/3fa6bf56-8483-4fa7-8f51-b66304e48521
 ## 🧱 Main Files
 
 - `app.py` : Document-to-quiz Streamlit app
-- `eval.py` : Document-to-quiz app with quality evaluation metrics
-- `conv.py` : Converts SQuAD v2 JSON into CSV format
 - `requirements.txt` : Python dependencies for the project
 
 ## ⚙️ Setup
